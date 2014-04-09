@@ -3,6 +3,7 @@ class NumberFormat
 
   def initialize(num)
     @num = num
+    @num ||= 0
   end
 
   def currency_formatted

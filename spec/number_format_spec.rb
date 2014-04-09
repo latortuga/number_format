@@ -15,4 +15,10 @@ describe NumberFormat do
 
     it { should == "$100.50" }
   end
+
+  context "a float" do
+    let(:num) { nil }
+
+    it { should == "$0.00" }
+  end
 end
